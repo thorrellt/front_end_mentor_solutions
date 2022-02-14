@@ -4,30 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="styles.css" type="text/css" rel="stylesheet" >
-  
-  <title>Frontend Mentor | QR code component</title>
 
+  <title>Frontend Mentor | NFT preview card component</title>
+ 
 </head>
 <body>
-
   <div class="container">
     <div class="card">
-      <img src="images/image-qr-code.png" alt="QR code">
-      <div class="text">
-        <h2>Improve your front-end skills by building projects</h2>
-        <p>
-          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level  
+      <div class="product-info ">  
+        <div class="product-image product-section">
+          <img src="images/image-equilibrium.jpg" id="product-image" alt="Picture of equilibrium">
+
+          <img src="images/icon-view.svg" id="product-active" alt="">
+        </div>
+        
+        <div class="title product-section">
+          <h1 id="title">
+            Equilibrium <a href="#" class="title" id="nft_num">#3429</a>
+          </h1>
+        </div>
+
+        
+
+        
+        <p class="product-desc product-section">
+          Our Equilibrium collection promotes balance and calm.
         </p>
-      </div>
+
+        <div class="price-section product-section">
+          <div class="price-block" id="price">
+            <img src="images/icon-ethereum.svg" class="price-info" id="nft-symbol" alt="">
+            <p class="price-info" id="current-price">0.041 ETH</p>
+          </div>
+
+          <div class="price-block" id="time">
+              <p class="price-info" id="time-remaining">
+                3 days left
+              </p>
+              <img src="images/icon-clock.svg" class="price-info" id="clock" alt="">
+          </div>
+        </div>
+
+        <div class="creator product-section">
+          <img src="images/image-avatar.png" id="creator-avatar" alt="">
+          <p class="creator-desc">
+            Creation of <a href="">Jules Wyvern</a>
+          </p>
+        </div>
+      </div>  
     </div>
   </div>
 
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Thorrell Turner</a>.
+    Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
 </html>

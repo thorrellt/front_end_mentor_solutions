@@ -1,48 +1,195 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 :root {
+    /* Primary  */
+    --soft-bleu:hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /* Neutral */
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
-    --light-gray: hsl(212, 45%, 89%);
-    --grayish-blue: hsl(220, 15%, 55%);
-    --dark-blue: hsl(218, 44%, 22%);
+
 }
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: var(--light-gray);
-    font-size: 15px;
+    font-size: 18px;
+    background-color: var(--main-bg);
+    color: var(--white);
 }
+
+p {
+    color: var(--soft-bleu);
+}
+
+a {
+    color: var(--white);
+    text-decoration: inherit;
+  }
 
 .container {
-    width: 320px;
-    margin: 0 auto;
-    min-height: 100vh;
     display: flex;
+    width: 19.2em;
+    min-height: 100vh;
+    margin: 0 auto;
     align-items: center;
 }
-.text {
-    padding: 0px 30px;
+
+.card {
+    width: 100%;
+    margin: 0% auto;
+    background-color: var(--card-bg);
+    border-radius: 1em;
 }
 
-p{
-  margin-bottom: 50px;
-  color: var(--grayish-blue);
-  font-size: 16px;
+.product-info {
+    margin: 1.5rem;
 }
 
-.card{
-    background-color: var(--white);
-    border-radius: 18px;
-    text-align: center;
+.product-section{
+    margin: 1em 0;
 }
-.card img {
-    width: 290px;
-    margin: 15px ;
-    display: block;
-    border-radius: 11px;
+
+/* PRODUCT (NFT) IMAGE */
+/* PRODUCT (NFT) IMAGE */
+.product-image {
+    position: relative;
+    width: 100%;
+    height: 16.5em;
+    border-radius: .5em;
 }
+#product-image {
+    width: 100%;
+    border-radius: .5em;
+    pointer-events: none;
+}
+
+#product-active {
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.product-image:hover{
+    background-color: var(--cyan);
+}
+
+.product-image:hover > #product-image {
+    opacity: .5;
+}
+
+.product-image:hover > #product-active{
+    z-index: 1;
+}
+
+
+
+
+
+/* PRODUCT (NFT) DESCRIPTION */
+/* PRODUCT (NFT) DESCRIPTION */
+
+#title{
+    display: inline;
+    font-size: 1.2em;
+    color: var(--white);
+    font-style: bold;
+}
+
+.product-desc {
+    line-height: 1.5em;
+}
+
+/* PRICE SECTION */
+/* PRICE SECTION */
+.price-section {
+    display: flex;
+    width: 100%;
+    height: 1.2rem; 
+    padding: .2em 0 1.5em 0;
+    /* border:solid 2px; */
+    border-bottom: .1rem solid;
+    border-color: var(--line); 
+}
+
+.price-block {
+    display: inline;
+    height:100%;
+    width: 50%;
+    /* border: solid 2px; */
+    
+}
+
+.price-block p {
+    font-size: .9em;
+    padding-left: .3em;
+    /* border: solid 2px; */
+}
+
+.price-block img {
+    margin: 0 auto;
+    height: 100%;
+    /* border: solid 2px; */
+}
+
+#nft-symbol {
+    justify-content: left;
+    float: left;
+}
+
+#current-price {
+    justify-content: left; /* align horizontal */
+    align-items: center;
+    font-style: bold;
+    color: var(--cyan);
+    text-shadow: 0 0 .1em;
+    padding-left: 1em;
+    margin: 0 auto 0 0;
+
+}
+
+#time-remaining {
+    float: right;
+    margin: 0 0 0 auto;
+}
+
+#clock {
+    float: right;    
+}
+
+
+/* CREATOR SECTION */
+/* CREATOR SECTION */
+.creator {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.6em;
+}
+
+#creator-avatar {
+    width: 1.7em;
+    border-color: var(--white) ;
+    border: .1em solid;
+    border-radius: 80%;
+}
+
+.creator-desc {
+    height: 100%;
+    display: inline;
+    padding-left: .6em;
+    padding-bottom: 8%;
+    vertical-align: middle;
+    font-size: .92em;
+}
+
+
 
 .attribution {
     display: none;
 }
-

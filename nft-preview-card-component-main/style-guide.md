@@ -9,18 +9,25 @@ The designs were created to the following widths:
 
 ## Colors
 
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
 - White: hsl(0, 0%, 100%)
-- Light gray: hsl(212, 45%, 89%)
-- Grayish blue: hsl(220, 15%, 55%)
-- Dark blue: hsl(218, 44%, 22%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraph): 15px
+- Font size (paragraph): 18px
 
 ### Font
 
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 700
+- Weights: 300, 400, 600

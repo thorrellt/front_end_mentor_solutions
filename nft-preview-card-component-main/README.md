@@ -1,12 +1,12 @@
 # Frontend Mentor - NFT preview card component
 
-This is a solution to the [NFT preview card component coding challenge](./design/desktop-preview.jpg). 
+This is my solution to the [NFT Preview Card Component Challenge from Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). 
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [The Challenge](#the-challenge)
+  - [The Solution](#the-solution)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -14,15 +14,17 @@ This is a solution to the [NFT preview card component coding challenge](./design
 
 ## Overview
 
-### Screenshot
+### The Challenge
 
-![](https://user-images.githubusercontent.com/64343445/152882816-0ef13bfa-a23e-47f0-90d6-770eed13f7a9.JPG)
+<img src="design/desktop-preview.jpg" alt="drawing" width="600"/>
 
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+### The Solution
+- Design Comparison:  
+<img src="https://user-images.githubusercontent.com/64343445/153529709-f880917f-76b2-49c5-b239-a872a9ec7bfd.gif" alt="drawing" width="600"/>  
 
-### Links
-- Live Site URL: [thorrellt.github.io/practice-qrcode-fem/](https://thorrellt.github.io/practice-qrcode-fem/)
+- [Live Site](https://thorrellt.github.io/practice-nftcard-fem/)
+- [Solution Review](https://www.frontendmentor.io/solutions/newbie-final-attempt-AHi4VfCZX)
 
 ## My process
 
@@ -34,13 +36,12 @@ This is a solution to the [NFT preview card component coding challenge](./design
 
 ### What I learned
 
-This practice exercise was fairly straight forwards. I was aware upon looking at the design how to implement it.   
-  
- The main hurdles I had to overcome were related to using a flexbox display. After some reading, I realized my mistake was not wrapping the element in a container in the html.  This allowed me the opportunity to realize a gap in my knowledge and begin to address it. 
+This project helped me get more familiar with structuring layouts and working with different display types. Early iterations had me using a lot of px measurements to try to match the reference image. More research and and few iterations later and my design scales more consistantly based on the design provided font size of 18px. 
 
 
 ## Author
 
 - Website - [Thorrell Turner](https://github.com/thorrellt)
-- Frontend Mentor - [@thorrellt](https://www.frontendmentor.io/profile/thorrellt)
+- Frontend Mentor Profile- [@thorrellt](https://www.frontendmentor.io/profile/thorrellt)
 - LinkedIn - [@thorrellt](https://www.linkedin.com/in/thorrellt/)
+- More Frontend Mentor challenge solutions - [github.com/thorrellt/front_end_mentor_solutions](https://github.com/thorrellt/front_end_mentor_solutions)

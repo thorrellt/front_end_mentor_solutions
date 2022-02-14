@@ -1,6 +1,8 @@
 # Welcome to the Front End Mentor Solutions
 
-Hi! To build upon my knowledge of HTML, CSS, JS and front end design, I decided to take advantage of the challenges @ frontendmentor.io.   
+Hi! To build upon my knowledge of HTML, CSS, JS and front end design, I decided to take advantage of the challenges @ frontendmentor.io.  
+
+      
 This is a collection of all the solutions I have completed so far. 
 
 ## Profile

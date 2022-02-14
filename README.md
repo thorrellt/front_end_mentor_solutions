@@ -11,11 +11,11 @@ You can visit my profile at: [www.frontendmentor.io/profile/thorrellt](https://w
 ## Challenges
 
 - **QR Code Component**
-	- [Github](https://github.com/thorrellt/practice-qrcode-fem)
-	- [Live Version](https://thorrellt.github.io/practice-qrcode-fem/)
+	- [Github](https://github.com/thorrellt/front_end_mentor_solutions/tree/master/qr-code-component-main)
+	- [Live Version](https://thorrellt.github.io/front_end_mentor_solutions/qr-code-component-main/index.html)
 	- [Solution Review](https://www.frontendmentor.io/solutions/qr-code-component-challenge-vqncH1C9x)
 
 - **NFT Preview Card Component**
-	- [Github](https://github.com/thorrellt/practice-nftcard-fem)
-	- [Live Version](https://thorrellt.github.io/practice-nftcard-fem/)
+	- [Github](https://github.com/thorrellt/front_end_mentor_solutions/tree/master/nft-preview-card-component-main)
+	- [Live Version](https://thorrellt.github.io/front_end_mentor_solutions/nft-preview-card-component-main/index.html)
 	- [Solution Review](https://www.frontendmentor.io/solutions/newbie-final-attempt-AHi4VfCZX)

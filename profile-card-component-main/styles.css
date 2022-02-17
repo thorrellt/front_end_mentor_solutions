@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 :root {
     /* Primary */
@@ -11,25 +11,124 @@
 }
 
 body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
     display: flex;
     flex-direction:column;
     justify-content: center;
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
     background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg), var(--dark-cyan);
     background-repeat: no-repeat, no-repeat;
-    background-position: top -30em left -25em, bottom -45em right -30em;
+    background-position: top -25em left -15em, bottom -45em right -30em;
 }
 
 #card {
     display: flex;
-    width: 20em;
-    height: 20em;
+    position: relative;
+    flex-direction: column;
+    width: 21.2em;
+    height: 24.2em;
     min-height: 20em;
     margin: 0 auto;
     align-items: center;
-    border: 1px red solid;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+#card figure {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    top:38%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 7rem;
+    border: .4rem white solid;
+    border-radius: 50%;
+}
+
+#card header{
+    display: flex 0 1 100%;
+    width: 100%;
+    height: 37.5%;
+    background: url(images/bg-pattern-card.svg);
+    margin: 0;
+}
+
+#card section {
+    display: flex 0 1 100%;
+    width: 100%;
+    height: 40%;    
+    text-align: center;
+    margin: 0;
+    background: white;
+    overflow: hidden;
+}
+
+.shadow {
+    text-shadow: 0 0 2px -1px;
+}
+#card section h1 {
+    margin: 5.3rem auto 0 auto;
+    overflow: hidden;
+}
+
+#card section h1 span{
+    color: var(--dark-grayish-blue);
+    font-weight: 100;
+    padding-left: .35rem;
+}
+
+#card section p {
+    margin: 0 auto;
+    padding-top: .7rem;
+    color: var(--dark-gray);
+    font-size: 1rem;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+#card footer{
+    display: flex 1 1 100%;
+    width: 100%;
+    height: 22.5%;
+    margin: 0;
+    background: white;
+    box-shadow: 1px 0px 3px -1px var(--dark-gray);
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0 1em;
+    text-align: center;
+    width: 100%;
+    align-content: center;
+
+}
+
+ul li{
+    display: inline-block;
+    margin: 0;
+    width: 30%;    
+    text-align: center;
+}
+
+ul li h1{
+    font-size: 1.4rem;
+    margin-top: 1.6rem;
+    margin-bottom: 0;
+}
+
+ul li p{
+    font-size: .7rem;
+    font-weight: 400;
+    letter-spacing: .13rem;
+    margin-top: .2rem;
+    color: var(--dark-grayish-blue);
 }

@@ -21,7 +21,7 @@ body {
     min-height: 100vh;
     background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg), var(--dark-cyan);
     background-repeat: no-repeat, no-repeat;
-    background-position: top -25em left -15em, bottom -45em right -30em;
+    background-position: top -28em left -15em, bottom -35em right -15em;
 }
 
 #card {

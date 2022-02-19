@@ -10,6 +10,9 @@
     --dark-gray: hsl(0, 0%, 59%);
 }
 
+
+
+
 body {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
@@ -25,16 +28,19 @@ body {
 }
 
 #card {
-    display: flex;
     position: relative;
     flex-direction: column;
-    width: 21.2em;
-    height: 24.2em;
+    width: 18.0em;
+    height: 20.7em;
     min-height: 20em;
     margin: 0 auto;
     align-items: center;
     border-radius: 5%;
     overflow: hidden;
+}
+
+h1 {
+    font-size: 100%;
 }
 
 #card figure {
@@ -47,22 +53,20 @@ body {
 }
 
 img {
-    width: 7rem;
+    width: 5.5em;
     border: .4rem white solid;
     border-radius: 50%;
 }
 
 #card header{
-    display: flex 0 1 100%;
-    width: 100%;
+    display: block;
     height: 37.5%;
     background: url(images/bg-pattern-card.svg);
     margin: 0;
 }
 
 #card section {
-    display: flex 0 1 100%;
-    width: 100%;
+    display: block;
     height: 40%;    
     text-align: center;
     margin: 0;
@@ -74,7 +78,7 @@ img {
     text-shadow: 0 0 2px -1px;
 }
 #card section h1 {
-    margin: 5.3rem auto 0 auto;
+    margin: 4.8rem auto 0 auto;
     overflow: hidden;
 }
 
@@ -86,16 +90,15 @@ img {
 
 #card section p {
     margin: 0 auto;
-    padding-top: .7rem;
+    padding-top: .5rem;
     color: var(--dark-gray);
-    font-size: 1rem;
+    font-size: 80%;
     font-weight: 500;
     overflow: hidden;
 }
 
 #card footer{
-    display: flex 1 1 100%;
-    width: 100%;
+    display: block;
     height: 22.5%;
     margin: 0;
     background: white;
@@ -120,13 +123,12 @@ ul li{
 }
 
 ul li h1{
-    font-size: 1.4rem;
     margin-top: 1.6rem;
     margin-bottom: 0;
 }
 
 ul li p{
-    font-size: .7rem;
+    font-size: .55rem;
     font-weight: 400;
     letter-spacing: .13rem;
     margin-top: .2rem;

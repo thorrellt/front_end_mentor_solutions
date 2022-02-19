@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+/* - Mobile: 375px */
+/* - Desktop: 1440px */
+
+
 :root {
     /* Primary */
     --pale-blue: hsl(225, 100%, 94%);
@@ -19,3 +23,42 @@ body {
     font-family: 'Red Hat Display', sans-serif;
 
 }
+
+#card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 697px;
+
+
+
+    margin: 0 auto;
+    align-items: center;
+    outline: 1px solid;
+}
+
+img {
+    width: inherit;
+}
+
+section {
+    width: 100%;
+}
+
+section > * {
+    display: inline-block;
+}
+section img {
+    width: 25%;
+}
+
+section p span{
+    display: block;
+}
+
+button {
+    outline: 1px solid;outline: 1px solid;
+}
+
+

@@ -1,5 +1,5 @@
 
-//handles mobile screen size shift
+/* handles mobile screen size shift */
 @media screen and (max-width: 500px){
     #card {
        width: 327px;

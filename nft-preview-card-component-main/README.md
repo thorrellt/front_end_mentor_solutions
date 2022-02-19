@@ -23,7 +23,7 @@ This is my solution to the [NFT Preview Card Component Challenge from Frontend M
 - Design Comparison:  
 <img src="https://user-images.githubusercontent.com/64343445/153529709-f880917f-76b2-49c5-b239-a872a9ec7bfd.gif" alt="drawing" width="600"/>  
 
-- [Live Site](https://thorrellt.github.io/practice-nftcard-fem/)
+- [Live Site](https://thorrellt.github.io/front_end_mentor_solutions/nft-preview-card-component-main/index.html)
 - [Solution Review](https://www.frontendmentor.io/solutions/newbie-final-attempt-AHi4VfCZX)
 
 ## My process

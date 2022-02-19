@@ -23,7 +23,7 @@ This is my solution to the [QR Code Component Challenge from Frontend Mentor](ht
 - Design Comparison:  
 <img src="https://user-images.githubusercontent.com/64343445/153530521-8bcc4bd3-b98d-47b9-beec-8b7cdcee4e14.gif" alt="Solution Comparison" width="600"/>  
 
-- [Live Site](https://thorrellt.github.io/practice-qrcode-fem/)
+- [Live Site](https://thorrellt.github.io/front_end_mentor_solutions/qr-code-component-main/index.html)
 - [Solution Review](https://www.frontendmentor.io/solutions/qr-code-component-challenge-vqncH1C9x)
 
 ## My process

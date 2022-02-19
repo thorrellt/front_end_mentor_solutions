@@ -21,6 +21,7 @@ html {
 
 body {
     font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--pale-blue);
 
 }
 
@@ -30,35 +31,85 @@ body {
     flex-wrap: wrap;
     width: 450px;
     height: 697px;
-
-
-
     margin: 0 auto;
     align-items: center;
-    outline: 1px solid;
+    background-color: white;
+    border-radius: 1.25em;
+    overflow: hidden;
 }
 
 img {
     width: inherit;
 }
 
+.content {
+    margin-left: 3em;
+    margin-right: 3em;
+    width: -moz-calc(100% - 6em);
+    width: -webkit-calc(100% - 6em);
+    width: -o-calc(100% - 6em);
+    width: calc(100% - 6em);
+}
+h1 {
+    font-size: 175%;
+    text-align: center;
+    margin-top: 1.6em;
+
+    /* outline: 1px solid; */
+}
+
+p {
+    text-align: center;
+    margin-top: .1em;
+    color: var(--desaturated-blue);
+}
+
 section {
-    width: 100%;
+    box-sizing: border-box;
+    padding: 1.25em 1.5em;
+    height: 6.125em;    
+    background-color: var(--very-pale-blue);
+    border-radius: .7em;
+
+    /* outline: 1px solid; */
 }
 
 section > * {
     display: inline-block;
 }
 section img {
-    width: 25%;
+    width: 3em;
+}
+section p {
+    display: inline-block;
+
+    /* outline: 1px solid; */
 }
 
 section p span{
     display: block;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+section a {
+    /* outline: 1px solid; */
 }
 
 button {
-    outline: 1px solid;outline: 1px solid;
+    height: 3.125em;
+    background-color: var(--bright-blue);
+    color: white;
+    font-size: 0.9375em;
+    border-radius: 0.6875em;
+    /* outline: 1px solid;outline: 1px solid; */
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9375em;
+    color: var(--desaturated-blue);
+    
 }
 
 

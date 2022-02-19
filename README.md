@@ -19,3 +19,8 @@ You can visit my profile at: [www.frontendmentor.io/profile/thorrellt](https://w
 	- [Github](https://github.com/thorrellt/front_end_mentor_solutions/tree/master/nft-preview-card-component-main)
 	- [Live Version](https://thorrellt.github.io/front_end_mentor_solutions/nft-preview-card-component-main/index.html)
 	- [Solution Review](https://www.frontendmentor.io/solutions/newbie-final-attempt-AHi4VfCZX)
+
+- **Profile Card Component**
+	- [Github](https://github.com/thorrellt/front_end_mentor_solutions/tree/master/profile-card-component-main)
+	- [Live Version](https://thorrellt.github.io/front_end_mentor_solutions/profile-card-component-main/index.html)
+	- [Solution Review](https://www.frontendmentor.io/solutions/profile-card-EX_qJke6B)

@@ -70,6 +70,7 @@ section {
     height: 6.125em;    
     background-color: var(--very-pale-blue);
     border-radius: .7em;
+    margin-bottom: 1em;
 
     /* outline: 1px solid; */
 }
@@ -101,6 +102,7 @@ button {
     color: white;
     font-size: 0.9375em;
     border-radius: 0.6875em;
+    margin: 1em auto;
     /* outline: 1px solid;outline: 1px solid; */
 }
 
@@ -109,7 +111,7 @@ a {
     text-decoration: none;
     font-size: 0.9375em;
     color: var(--desaturated-blue);
-    
+    margin: 1em auto;    
 }
 
 

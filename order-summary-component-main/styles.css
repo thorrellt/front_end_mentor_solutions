@@ -54,6 +54,7 @@ h1 {
     font-size: 175%;
     text-align: center;
     margin-top: 1.6em;
+    color: var(--dark-blue);
 
     /* outline: 1px solid; */
 }
@@ -78,7 +79,7 @@ section {
 }
 
 section > * {
-    /* display: inline-block; */
+    /* outline: 1px solid; */
 }
 section img {
     width: 3em;
@@ -87,7 +88,8 @@ section img {
 section p {
     display: inline-block;
     margin: 0 1.25em;
-
+    height: 3.5em;
+    line-height: 1.5em;
     /* outline: 1px solid; */
 }
 
@@ -95,12 +97,22 @@ section p span{
     display: block;
     color: var(--dark-blue);
     font-weight: bold;
+    padding-bottom: .25rem;
 }
 section a {
     margin-left: auto;
     margin-right: 0;
     padding: 0;
+    color: var(--bright-blue);
+    font-size: .875rem;
+    text-decoration: underline;
+    font-weight: bold;
     /* outline: 1px solid; */
+}
+
+section a:hover {
+    color: var(--desaturated-blue);
+    text-decoration: none;
 }
 
 button {
@@ -108,9 +120,16 @@ button {
     background-color: var(--bright-blue);
     color: white;
     font-size: 0.9375em;
+    word-spacing: 0;
     border-radius: 0.6875em;
     margin: 1em auto;
+    font-weight: 900;
     /* outline: 1px solid;outline: 1px solid; */
+}
+
+button:hover {
+    background-color: var(--desaturated-blue);
+
 }
 
 a {
@@ -118,7 +137,12 @@ a {
     text-decoration: none;
     font-size: 0.9375em;
     color: var(--desaturated-blue);
-    margin: 1em auto;    
+    margin: 1em auto;
+    word-spacing: 0;
+    font-weight: 900;
 }
 
+a:hover {
+    color: var(--dark-blue);
+}
 

@@ -55,6 +55,7 @@ h1 {
     text-align: center;
     margin-top: 1.6em;
     color: var(--dark-blue);
+    font-weight: 900;
 
     /* outline: 1px solid; */
 }
@@ -79,7 +80,7 @@ section {
 }
 
 section > * {
-    /* outline: 1px solid; */
+    outline: 1px solid;
 }
 section img {
     width: 3em;

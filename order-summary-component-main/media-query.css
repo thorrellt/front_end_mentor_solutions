@@ -6,4 +6,17 @@
        height: 567px;
     }
 
+    .content {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        width: -moz-calc(100% - 3em);
+        width: -webkit-calc(100% - 3em);
+        width: -o-calc(100% - 3em);
+        width: calc(100% - 3em);
+    }
+
+    section {
+        height: 5.0625em;
+    }
+
 }

@@ -66,6 +66,8 @@ p {
 
 section {
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
     padding: 1.25em 1.5em;
     height: 6.125em;    
     background-color: var(--very-pale-blue);
@@ -76,13 +78,15 @@ section {
 }
 
 section > * {
-    display: inline-block;
+    /* display: inline-block; */
 }
 section img {
     width: 3em;
+    height: 3em;
 }
 section p {
     display: inline-block;
+    margin: 0 1.25em;
 
     /* outline: 1px solid; */
 }
@@ -93,6 +97,9 @@ section p span{
     font-weight: bold;
 }
 section a {
+    margin-left: auto;
+    margin-right: 0;
+    padding: 0;
     /* outline: 1px solid; */
 }
 

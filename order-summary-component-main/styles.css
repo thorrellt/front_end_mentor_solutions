@@ -21,7 +21,12 @@ html {
 
 body {
     font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size:  contain;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: top -5em center; 
     background-color: var(--pale-blue);
+    min-height: 100vh;
     display: grid;
     place-items: center;
 
@@ -31,12 +36,9 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    position: absolute;
-    inset: 0;
     width: 450px;
     height: 697px;
     margin:  auto;
-    align-items: center;
     background-color: white;
     border-radius: 1.25em;
     overflow: hidden;

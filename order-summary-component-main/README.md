@@ -20,7 +20,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### The Solution
 - Design Comparison:  
-<img src="https://user-images.githubusercontent.com/64343445/154784397-dd7eab79-593c-422a-8718-3c061aef9253.gif" alt="drawing" width="600"/>  
+<img src="https://user-images.githubusercontent.com/64343445/155644552-270cc14b-a2ac-477f-8995-85c69112d85a.gif" alt="drawing" width="600"/>  
 
 - [Live Site](https://thorrellt.github.io/front_end_mentor_solutions/order-summary-component-main/index.html)
 - [Solution Review](https://www.frontendmentor.io/solutions/summary-component-first-pass-xYRNsdzGi)

@@ -24,3 +24,8 @@ You can visit my profile at: [www.frontendmentor.io/profile/thorrellt](https://w
 	- [Github](https://github.com/thorrellt/front_end_mentor_solutions/tree/master/profile-card-component-main)
 	- [Live Version](https://thorrellt.github.io/front_end_mentor_solutions/profile-card-component-main/index.html)
 	- [Solution Review](https://www.frontendmentor.io/solutions/profile-card-EX_qJke6B)
+
+- **Order Summary Component**
+	- [Github](https://github.com/thorrellt/front_end_mentor_solutions/tree/master/order-summary-component-main)
+	- [Live Version](https://thorrellt.github.io/front_end_mentor_solutions/order-summary-component-main/index.html)
+	- [Solution Review](https://www.frontendmentor.io/solutions/summary-component-first-pass-xYRNsdzGi)
